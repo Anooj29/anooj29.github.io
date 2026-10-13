@@ -184,25 +184,58 @@ export type ExperienceItem = {
 /** Add your real roles. Reference-mockup entries were not used because dates & titles are factual claims. */
 export const experience: ExperienceItem[] = [
   {
-    period: "[20XX – Present]",
-    role: "[Role title]",
-    org: "[Company / Organisation]",
-    summary: "[One sentence on what you owned and delivered.]",
-    highlights: ["[Quantified achievement]", "[Quantified achievement]"],
+    period: "June 2026 – Present",
+    role: "New Product Development (NPD)",
+    org: "TRBL Electric Mobility Pvt. Ltd.",
+    summary:
+      "Contributing to electric bus product development, engineering documentation, and compliance with Indian automotive regulations and standards.",
+    highlights: [
+      "Youngest team member to lead NPD initiatives"
+    ],
   },
   {
-    period: "[20XX – 20XX]",
-    role: "[Role title]",
-    org: "[Company / Organisation]",
-    summary: "[One sentence on what you owned and delivered.]",
-    highlights: ["[Quantified achievement]"],
+    period: "June 2025 – Aug 2025",
+    role: "Robotics & AI R&D Lead",
+    org: "V.S. Tech Horizon Pvt. Ltd.",
+    summary:
+      "Led the development of 11+ robotics, AI, LLM, and embedded systems projects while contributing to institutional lab setups and technical business pitches.",
+    highlights: [
+      "Conducted 6+ hands-on workshops in Robotics and AI",
+      "Trained students across diploma, undergraduate, and postgraduate levels",
+    ],
   },
   {
-    period: "[20XX – 20XX]",
-    role: "[Degree / Programme]",
-    org: "[University]",
-    summary: "[Focus areas, thesis or major projects.]",
-    highlights: ["[Relevant coursework or distinction]"],
+    period: "Oct 2025 – Present",
+    role: "President",
+    org: "Invictus Robotics Team — MIT-AOE",
+    summary:
+      "Lead a 22+ member robotics team focused on Physical AI, autonomous systems, research, and real-world robotic applications.",
+    highlights: [
+      "Led 10+ projects and mentored 40+ students",
+      "Competed in national-level robotics and innovation competitions",
+    ],
+  },
+  {
+    period: "Dec 2023 – Jan 2026",
+    role: "Co-Founder",
+    org: "VertexGDNA — Game Development & Animation",
+    summary:
+      "Co-founded the college's game development and animation club, building a community around programming, mathematical animation, and interactive experiences.",
+    highlights: [
+      "Mentored 12 students in a college-recognized summer program",
+      "Conducted hands-on training in Pygame and Manim",
+    ],
+  },
+  {
+    period: "Sept 2023 – Mar 2024",
+    role: "Junior Engineer — Vehicle Dynamics",
+    org: "Team Niyudrath Racing — MIT-AOE",
+    summary:
+      "Contributed to ATV design, manufacturing, and testing, with a focus on vehicle dynamics and competition readiness.",
+    highlights: [
+      "Achieved AIR 28 in the Junior Engineer role",
+      "Achieved AIR 17 as Junior Lead for Sales Presentation",
+    ],
   },
 ];
 
