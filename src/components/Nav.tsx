@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { nav, site } from "@/content/site";
+import { contactLink, nav, site } from "@/content/site";
 import Logo from "./Logo";
 import { ArrowRight } from "./ui/Icons";
 
@@ -85,7 +85,8 @@ export default function Nav({ resume }: { resume: boolean }) {
 
         <div className="flex items-center gap-2">
           <a
-            href={href("contact")}
+            href={contactLink.href}
+            {...(contactLink.external && { target: "_blank", rel: "noopener noreferrer" })}
             className="group hidden items-center gap-2 rounded-full border border-signal-500/50 px-4 py-2 text-[13px] text-fg transition-colors hover:bg-signal-500/10 sm:inline-flex"
           >
             Let&apos;s Connect

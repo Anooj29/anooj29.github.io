@@ -22,11 +22,17 @@ export const site = {
   email: "anoojjilladwar@gmail.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/anoojjilladwar", // VERIFY — from reference mockup
-    github: "https://github.com/[your-github-username]", // ADD your GitHub handle
+    github: "https://github.com/Anooj29",
   },
+  /**
+   * Google Form behind "Let's Connect" / "Get in touch". Turn on
+   * Responses → ⋮ → "Get email notifications for new responses" in the form
+   * so every submission lands in your Gmail. Until set, buttons fall back to mailto.
+   */
+  contactForm: "https://forms.gle/[your-form-id]",
   /** Place your résumé at /public/resume.pdf — buttons auto-enable when the file exists. */
   resumePath: "/resume.pdf",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://anooj29.com",
 } as const;
 
 /** The six domains you listed — these are facts you provided. */
@@ -219,3 +225,8 @@ export const nav = [
 ] as const;
 
 export const isPlaceholder = (s: string) => /^\[.*\]$/.test(s.trim()) || s.includes("[your-");
+
+/** Where contact CTAs point: the Google Form when configured, otherwise a mailto. */
+export const contactLink = isPlaceholder(site.contactForm)
+  ? { href: `mailto:${site.email}`, external: false }
+  : { href: site.contactForm, external: true };

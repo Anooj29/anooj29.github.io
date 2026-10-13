@@ -1,4 +1,4 @@
-import { isPlaceholder, site } from "@/content/site";
+import { contactLink, isPlaceholder, site } from "@/content/site";
 import Reveal from "../ui/Reveal";
 import CopyEmail from "../ui/CopyEmail";
 import { buttonClass } from "../ui/Button";
@@ -46,7 +46,11 @@ export default function Contact({ resume }: { resume: boolean }) {
         </Reveal>
 
         <Reveal delay={0.08} className="mt-12 flex flex-wrap gap-3">
-          <a href={`mailto:${site.email}`} className={buttonClass("primary", "px-6 py-3")}>
+          <a
+            href={contactLink.href}
+            {...(contactLink.external && { target: "_blank", rel: "noopener noreferrer" })}
+            className={buttonClass("primary", "px-6 py-3")}
+          >
             <Mail /> Get in touch <ArrowRight className="transition-transform group-hover:translate-x-0.5" />
           </a>
           {resume && (
