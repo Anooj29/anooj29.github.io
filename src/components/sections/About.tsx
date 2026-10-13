@@ -39,9 +39,9 @@ export default function About() {
               it&apos;s built as about what it does.
             </p>
             <p className="mt-6 max-w-2xl leading-relaxed text-fg-muted">
-              My work spans robotics and AI, CAD-driven mechanical design, embedded systems, electric mobility and autonomous
-              systems on ROS2 — tied together by a product-development mindset: understand the problem, build fast, test honestly,
-              iterate.
+              My work spans physical AI, robotics, autonomous systems on ROS2, CAD-driven mechanical design, embedded systems 
+              and electric mobility  — tied together by a product-development mindset: understand the problem, build fast, test 
+              honestly, iterate.
             </p>
 
             {/* Process strip */}

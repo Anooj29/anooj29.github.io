@@ -178,18 +178,18 @@ export type ExperienceItem = {
 /** Add your real roles. Reference-mockup entries were not used because dates & titles are factual claims. */
 export const experience: ExperienceItem[] = [
   {
-    period: "[20XX – Present]",
-    role: "[Role title]",
-    org: "[Company / Organisation]",
-    summary: "[One sentence on what you owned and delivered.]",
-    highlights: ["[Quantified achievement]", "[Quantified achievement]"],
+    period: "June 2026 – Present",
+    role: "NPD Engineer",
+    org: "[TRBL Electric Mobiliy Pvt. Ltd.]",
+    summary: "[Working on Electric vehicles technical and homologation.]",
+    highlights: ["Lead incharge of technical requirements according to Indian Rules and Regulations."],
   },
   {
-    period: "[20XX – 20XX]",
-    role: "[Role title]",
-    org: "[Company / Organisation]",
-    summary: "[One sentence on what you owned and delivered.]",
-    highlights: ["[Quantified achievement]"],
+    period: "June 2025 – Aug 2025",
+    role: "R&D Lead",
+    org: "VS Tech Horizon Pvt. Ltd.",
+    summary: "Build ",
+    highlights: ["Quantified achievement"],
   },
   {
     period: "[20XX – 20XX]",
