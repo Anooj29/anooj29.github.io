@@ -115,11 +115,11 @@ export const projects: Project[] = [
     slug: "autonomous-quadruped-robot",
     title: "Autonomous Quadruped Robot", // VERIFY
     kind: "quadruped",
-    tags: ["Mechanical Design", "ROS2", "AI"], // VERIFY
-    summary: "[Add a one-line summary: what it is and why it matters]",
-    year: "[Year]",
-    role: "[Your role]",
-    status: "[Status — e.g. Prototype / Completed]",
+    tags: ["Mechanical Design","AI", "RL","ROS2", "Electronics"], // VERIFY
+    summary: "Developed an autonomous quadruped robot integrating ROS 2, reinforcement learning, and inverse kinematics to achieve intelligent locomotion, adaptive gait control, and stable navigation across challenging terrains using simulation-driven development and robotic control systems.",
+    year: "2026",
+    role: "Physical AI Training and CAD Design",
+    status: "Prototype",
     problem: "[Describe the problem this robot solves and the constraints you worked within.]",
     approach: [
       "[Leg mechanism / actuator selection]",
