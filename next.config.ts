@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   images: { unoptimized: true },
-  experimental: { optimizePackageImports: ["motion", "three"] },
 };
 
 export default nextConfig;
